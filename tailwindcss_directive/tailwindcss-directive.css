@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .dara{
+        @apply bg-gradient-to-br
+        from-purple-400
+        to-blue-200
+        via-cyan-50;
+    }
+}
